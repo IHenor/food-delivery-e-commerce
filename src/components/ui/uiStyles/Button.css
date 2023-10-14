@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Manrope:wght@300;400;500&family=Oswald:wght@500&display=swap');
+
+button{
+  font-family: 'Gabarito', 'Manrope', 'Oswald', sans-serif;
+}
+
+.delete{
+  background-color: rgb(179, 0, 0);
+  width: 250px;
+  height: 100;
+  border-radius:  10px;
+  font-size: 2rem;
+  border: 2px rgb(132, 0, 0) solid;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  padding: 10px 0px;
+}
+
+.open{
+  background-color:#282c34;
+  width: 250px;
+  height: 100;
+  border-radius:  10px;
+  font-size: 2rem;
+  border: 1px #383e47 solid; 
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+
+}
+
+.shop{
+  background-color:#282c34;
+  width: 250px;
+  height: 100;
+  border-radius:  10px;
+  font-size: 2rem;
+  border: 1px #383e47 solid; 
+
+  color: white;
+  padding: 10px 0px;
+
+
+}
+
+.pay{
+  background-color:#282c34;
+  width: 250px;
+  height: 100;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: 1px #383e47 solid; 
+
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
