@@ -1,0 +1,19 @@
+input {
+  font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
+  border-radius: 10px;
+  border: 1px solid var(--gray-93, #eae8ed);
+  background: var(--White, #fff);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+h1 {
+  color: black;
+  justify-self: flex-start;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.name {
+  padding: 1rem;
+}

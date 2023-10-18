@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Manrope:wght@300;400;500&family=Oswald:wght@500&display=swap");
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +12,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: rgb(183, 183, 183);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +26,10 @@
   color: #61dafb;
 }
 
+.flex {
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
 }

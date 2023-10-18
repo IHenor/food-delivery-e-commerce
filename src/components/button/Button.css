@@ -1,0 +1,29 @@
+button {
+  font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
+  width: 250px;
+  height: 100;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  background-color: #282c34;
+  border: 1px #383e47 solid;
+  padding: 1rem;
+  margin: 1rem;
+  padding: 10px 0px;
+}
+
+.del {
+  background-color: rgb(179, 0, 0);
+  border: 2px rgb(132, 0, 0) solid;
+}
+
+.open {
+  padding: 1rem 2rem;
+}
+
+.shop {
+}
+
+.pay {
+}
