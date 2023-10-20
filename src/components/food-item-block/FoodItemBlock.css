@@ -7,7 +7,7 @@
   height: 14.375rem;
   background-color: white;
   padding: 1.88rem 1.25rem;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.04);
   gap: 1rem;
 }
@@ -19,8 +19,9 @@
 .card-item-image:hover {
   width: 100%;
   justify-content: center;
+  align-items: center;
   background-color: red;
-  transition: 500ms ease;
+  transition: background-color 0.3s ease;
 }
 
 .card-item-image img {
@@ -101,4 +102,14 @@
 
 .none {
   display: none;
+}
+
+.dec-title:hover + .none {
+  display: block;
+  transition: 500ms ease;
+}
+.card-item-description:hover + .card-item-image {
+  position: absolute;
+  display: none;
+  background-color: red;
 }

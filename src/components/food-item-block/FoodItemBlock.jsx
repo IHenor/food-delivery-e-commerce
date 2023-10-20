@@ -13,10 +13,10 @@ function FoodItemBlock() {
           <div className="dec-title">
             <h1>Whooper</h1>
             <h2>200cal,150g</h2>
-            <div className="hov none">
-              <h3>Content:</h3>
-              <p>big time stake with perfect taste and smel</p>
-            </div>
+          </div>
+          <div className="hov none">
+            <h3>Content:</h3>
+            <p>big time stake with perfect taste and smel</p>
           </div>
 
           <div className="dec-btnn">

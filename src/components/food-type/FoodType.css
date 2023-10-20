@@ -1,0 +1,15 @@
+.type-image {
+  display: flex;
+  width: 16.375rem;
+  height: 13.125rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 12px;
+  background-image: url(/src/assets/Images/Lunch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 3;
+}

@@ -1,4 +1,4 @@
-button {
+/* button {
   font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
   width: 250px;
   height: 100;
@@ -11,9 +11,9 @@ button {
   padding: 1rem;
   margin: 1rem;
   padding: 10px 0px;
-}
+} */
 
-.del {
+/* .del {
   background-color: rgb(179, 0, 0);
   border: 2px rgb(132, 0, 0) solid;
 }
@@ -26,4 +26,4 @@ button {
 }
 
 .pay {
-}
+} */
