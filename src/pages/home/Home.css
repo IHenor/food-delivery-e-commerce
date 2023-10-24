@@ -1,0 +1,23 @@
+.home-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 69%;
+  background-color: red;
+  height: auto;
+}
+
+.restaurant-body {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px; /* Add gap between grid items as needed */
+  width: 100%;
+  background-color: blue;
+}
+
+.restaurant-content {
+  /* You may not need this container depending on your specific layout requirements */
+  display: flex;
+  flex-direction: column; /* This will make the content stack vertically within each grid cell */
+}

@@ -1,21 +1,21 @@
 import "./App.css";
-import Button from "components/button/Button";
-import FoodBlock from "components/food-block/FoodBlock";
-import FoodItemBlock from "components/food-item-block/FoodItemBlock";
-import FoodType from "components/food-type/FoodType";
-import InputName from "components/input-field/InputName";
-import Order from "components/order/Order";
+import { Route, Routes } from "react-router-dom";
+
+import NavBar from "components/nav-bar/NavBar";
 import OrderItem from "components/order/OrderItem";
+import Home from "pages/home/Home";
 
 function App() {
-  const yell = () => {
-    alert("maoa");
-  };
-
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
-        <OrderItem />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Restorants" element={<OrderItem />} />
+          <Route path="/Shop" element={<OrderItem />} />
+          <Route path="/" element={<OrderItem />} />
+        </Routes>
       </header>
     </div>
   );
