@@ -33,6 +33,7 @@ function NavBar() {
           <FontAwesomeIcon icon={faUser} />
         </button>
       </div>
+      <div className="di"></div>
     </nav>
   );
 }
