@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 function NavBar() {
   return (
@@ -25,15 +26,21 @@ function NavBar() {
       </div>
 
       <div className="nav-buttons">
-        <div className="nav-search"></div>
+        <input
+          className="nav-search"
+          type="text"
+          id="search-input"
+          placeholder="Search..."
+        ></input>
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
         <button className="nav-cart">
+          <div className="cart-number">3</div>
           <FontAwesomeIcon icon={faCartPlus} />
         </button>
         <button className="nav-user">
           <FontAwesomeIcon icon={faUser} />
         </button>
       </div>
-      <div className="di"></div>
     </nav>
   );
 }

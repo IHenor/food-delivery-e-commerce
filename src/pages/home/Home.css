@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   width: 69%;
-  background-color: red;
   height: auto;
 }
 
@@ -13,7 +12,6 @@
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 10px; /* Add gap between grid items as needed */
   width: 100%;
-  background-color: blue;
 }
 
 .restaurant-content {
