@@ -2,25 +2,28 @@ import React from "react";
 import "../nav-bar/NavBar.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faCartPlus, faUser } from "@fortawesome/free-solid-svg-icons";
+import siteLogo from "assets/Images/SiteLogo.png";
 
 function NavBar() {
   return (
     <nav className="nav">
       <div className="nav-logo">
         <Link to="/" className="site-title active">
-          Site Name
+          <img src={siteLogo} alt="" />
         </Link>
       </div>
       <div className="nav-links">
         <ul>
           <li>
-            <Link to="/Restorants">Restorant</Link>
+            <Link to="/Restorants">
+              <h1 className="h1">Restorants</h1>
+            </Link>
           </li>
           <li>
-            <Link to="/Shop">Shop</Link>
+            <Link to="/Shop">
+              <h1 className="h1">Shops</h1>
+            </Link>
           </li>
         </ul>
       </div>
@@ -32,7 +35,6 @@ function NavBar() {
           id="search-input"
           placeholder="Search..."
         ></input>
-        <FontAwesomeIcon icon={faMagnifyingGlass} />
         <button className="nav-cart">
           <div className="cart-number">3</div>
           <FontAwesomeIcon icon={faCartPlus} />

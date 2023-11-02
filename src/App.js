@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import NavBar from "components/nav-bar/NavBar";
 import OrderItem from "components/order/OrderItem";
 import Home from "pages/home/Home";
+import Footer from "components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<OrderItem />} />
         </Routes>
       </header>
+      <Footer />
     </div>
   );
 }

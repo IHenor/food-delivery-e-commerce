@@ -1,19 +1,13 @@
-/* button {
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
-  width: 250px;
-  height: 100;
-  border-radius: 10px;
   font-size: 2rem;
-  color: white;
+  color: black;
   cursor: pointer;
-  background-color: #282c34;
-  border: 1px #383e47 solid;
-  padding: 1rem;
-  margin: 1rem;
-  padding: 10px 0px;
-} */
-
-/* .del {
+}
+.del {
   background-color: rgb(179, 0, 0);
   border: 2px rgb(132, 0, 0) solid;
 }
@@ -26,4 +20,26 @@
 }
 
 .pay {
-} */
+}
+
+.facebook {
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  padding: 2rem;
+  font-size: 24px;
+  border-radius: 6px;
+  background: var(--gray-93, #eae8ed);
+  border: 0;
+}
+
+.google {
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  padding: 2rem;
+  font-size: 24px;
+  border-radius: 6px;
+  background: var(--gray-93, #eae8ed);
+  border: 0;
+}
