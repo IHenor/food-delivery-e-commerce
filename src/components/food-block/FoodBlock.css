@@ -5,7 +5,7 @@
   grid-template-areas:
     "card-image"
     "card-description";
-  width: 26.5rem;
+  width: auto;
   height: auto;
   border-radius: 12px;
   border: 1.5px solid var(--gray-96, #f2f0f5);

@@ -5,6 +5,7 @@ import FoodType from "components/food-type/FoodType";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import FoodBlock from "components/food-block/FoodBlock";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,11 +16,13 @@ function Home() {
           <Discount />
           <Discount />
         </div>
-        <div className="restaurant-title">
+        <div className="restaurant-header">
           <h1>Restaurants</h1>
-          <h2>
-            See all <FontAwesomeIcon icon={faArrowRight} />
-          </h2>
+          <Link to="/Restorants">
+            <h2>
+              See all <FontAwesomeIcon icon={faArrowRight} />
+            </h2>
+          </Link>
         </div>
         <div className="restaurant-content">
           <div className="food-type">

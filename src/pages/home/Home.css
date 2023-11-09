@@ -23,6 +23,33 @@
   font-size: 3rem;
 }
 
+.restaurant-title a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.restaurant-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.restaurant-header h1 {
+  font-size: 3rem;
+}
+
+.restaurant-header a {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--gray-68);
+}
+.restaurant-header h2 {
+  font-weight: 100;
+}
+
 .restaurant-body {
   display: flex;
   flex-direction: column;

@@ -5,6 +5,7 @@ import NavBar from "components/nav-bar/NavBar";
 import OrderItem from "components/order/OrderItem";
 import Home from "pages/home/Home";
 import Footer from "components/footer/Footer";
+import Restaurants from "pages/restaurants/Restaurants";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <header className="App-header">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Restorants" element={<OrderItem />} />
+          <Route path="/Restorants" element={<Restaurants />} />
           <Route path="/Shop" element={<OrderItem />} />
           <Route path="/" element={<OrderItem />} />
         </Routes>

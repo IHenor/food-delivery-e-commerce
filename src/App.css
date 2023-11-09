@@ -11,6 +11,7 @@
   --gray-68: #abaaad;
   --gray-93: #eae8ed;
   --gray-96: #f2f0f5;
+  --gray-98: #fbfbfb;
   --light-blue: #eff5ff;
   --light-orange: #fff4ef;
   --light-pink: #ffeff3;
@@ -34,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
