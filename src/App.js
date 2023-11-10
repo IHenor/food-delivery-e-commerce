@@ -6,6 +6,7 @@ import OrderItem from "components/order/OrderItem";
 import Home from "pages/home/Home";
 import Footer from "components/footer/Footer";
 import Restaurants from "pages/restaurants/Restaurants";
+import Shop from "pages/shop/Shop";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Restorants" element={<Restaurants />} />
-          <Route path="/Shop" element={<OrderItem />} />
+          <Route path="/Shop" element={<Shop />} />
           <Route path="/" element={<OrderItem />} />
         </Routes>
       </header>

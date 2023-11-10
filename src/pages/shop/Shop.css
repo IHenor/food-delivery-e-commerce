@@ -1,0 +1,97 @@
+.shops-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: var(--gray-98);
+  color: black;
+  gap: 1rem;
+}
+
+.shop-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  padding: 64px 0 40px 0;
+}
+
+.shop-title h2 {
+  font-weight: 100;
+  margin: 0;
+  color: var(--gray-68);
+}
+
+.shop-blocks {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+  width: 80%;
+}
+
+.shops {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  width: 80%;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+}
+
+.title-text a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.shop-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 80%;
+}
+.filter-types {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 12px;
+}
+
+.filter-slider {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 1rem;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 1rem 10px 1rem;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid var(--gray-93, #eae8ed);
+  gap: 5px;
+  font-size: 1rem;
+}
+
+.active {
+  background-color: var(--gray-93, #eae8ed);
+}
+
+.filter p {
+  margin: 0;
+}
