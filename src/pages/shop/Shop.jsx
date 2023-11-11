@@ -29,12 +29,12 @@ function Shop() {
         </div>
       </div>
       <div className="shop-blocks">
-        <FoodType image={Lunch} />
-        <FoodType />
-        <FoodType />
-        <FoodType />
-        <FoodType />
-        <FoodType />
+        <FoodType image={Lunch} name="Vegetables" />
+        <FoodType image={Lunch} name="Beer" />
+        <FoodType image={Lunch} name="Chips" />
+        <FoodType image={Lunch} name="Fish" />
+        <FoodType image={Lunch} name="Chicken" />
+        <FoodType image={Lunch} name="Beef" />
       </div>
       <div className="shop-filters">
         <div className="filter-types">

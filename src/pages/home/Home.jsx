@@ -33,8 +33,6 @@ function Home() {
             <FoodType />
             <FoodType />
             <FoodType />
-            <FoodType />
-            <FoodType />
           </div>
           <div className="food-block">
             <FoodBlock />
