@@ -4,9 +4,10 @@
   align-items: center;
   font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
   font-size: 2rem;
-  color: black;
+  color: var(--black);
   cursor: pointer;
 }
+
 .del {
   background-color: rgb(179, 0, 0);
   border: 2px rgb(132, 0, 0) solid;
@@ -17,6 +18,18 @@
 }
 
 .shop {
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+  background-color: var(--black);
+}
+
+.shop h1 {
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+  padding: 0.6rem;
 }
 
 .pay {

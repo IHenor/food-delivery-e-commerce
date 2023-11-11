@@ -2,7 +2,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 import NavBar from "components/nav-bar/NavBar";
-import OrderItem from "components/order/OrderItem";
 import Home from "pages/home/Home";
 import Footer from "components/footer/Footer";
 import Restaurants from "pages/restaurants/Restaurants";
@@ -17,7 +16,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Restorants" element={<Restaurants />} />
           <Route path="/Shop" element={<Shop />} />
-          <Route path="/" element={<OrderItem />} />
         </Routes>
       </header>
       <Footer />

@@ -1,11 +1,19 @@
-import React from "react";
+import { React, useState } from "react";
 import "../nav-bar/NavBar.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCartPlus, faUser, faXmark } from "@fortawesome/free-solid-svg-icons";
 import siteLogo from "assets/Images/SiteLogo.png";
+import OrderItem from "components/order/OrderItem";
+import Button from "components/button/Button";
 
 function NavBar() {
+  const [cartState, setCartState] = useState(false);
+
+  function cartHandle() {
+    setCartState(!cartState);
+  }
+
   return (
     <nav className="nav">
       <div className="nav-logo">
@@ -35,7 +43,7 @@ function NavBar() {
           id="search-input"
           placeholder="Search..."
         ></input>
-        <button className="nav-cart">
+        <button className="nav-cart" onClick={cartHandle}>
           <div className="cart-number">3</div>
           <FontAwesomeIcon icon={faCartPlus} />
         </button>
@@ -43,6 +51,33 @@ function NavBar() {
           <FontAwesomeIcon icon={faUser} />
         </button>
       </div>
+      {cartState ? (
+        console.log("lmao")
+      ) : (
+        <div className="cart">
+          <div className="titlecard">
+            <div className="cart-title">
+              <h1>Cart</h1>
+              <button onClick={cartHandle}>
+                <FontAwesomeIcon icon={faXmark} />
+              </button>
+            </div>
+          </div>
+          <div className="cart-content">
+            <div className="cart-orders">
+              <OrderItem />
+              <OrderItem />
+            </div>
+            <div className="cart-price">
+              <div className="price-content">
+                <h2>Order Price:</h2>
+                <h3>18$</h3>
+              </div>
+              <Button name="Order Now" className="shop" />
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

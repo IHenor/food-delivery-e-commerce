@@ -47,7 +47,7 @@ function Home() {
       <div className="shop-body">
         <div className="shop-header">
           <h1>Shop</h1>
-          <Link to="/Shops">
+          <Link to="/Shop">
             <h2>
               See all <FontAwesomeIcon icon={faArrowRight} />
             </h2>
