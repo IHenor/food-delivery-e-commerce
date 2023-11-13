@@ -6,6 +6,7 @@ import Home from "pages/home/Home";
 import Footer from "components/footer/Footer";
 import Restaurants from "pages/restaurants/Restaurants";
 import Shop from "pages/shop/Shop";
+import User from "pages/user-page/User";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Restorants" element={<Restaurants />} />
           <Route path="/Shop" element={<Shop />} />
+          <Route path="/User" element={<User />} />
         </Routes>
       </header>
       <Footer />

@@ -48,7 +48,9 @@ function NavBar() {
           <FontAwesomeIcon icon={faCartPlus} />
         </button>
         <button className="nav-user">
-          <FontAwesomeIcon icon={faUser} />
+          <Link to="/User">
+            <FontAwesomeIcon icon={faUser} />
+          </Link>
         </button>
       </div>
       {cartState ? (

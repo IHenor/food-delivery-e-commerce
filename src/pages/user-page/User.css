@@ -1,0 +1,35 @@
+.user-page-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: var(--gray-98);
+  color: black;
+  gap: 1rem;
+}
+
+.user-page-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  padding: 64px 0 40px 0;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+}
+
+.title-text a {
+  font-style: normal;
+  text-decoration: none;
+}
