@@ -8,6 +8,8 @@
   width: auto;
   height: auto;
   border-radius: 12px;
+  background-color: white;
+
   border: 1.5px solid var(--gray-96, #f2f0f5);
   background: var(--White, #fff);
 }
@@ -18,10 +20,11 @@
   height: 15rem;
   padding: 1rem;
   align-items: flex-start;
-  background-image: url(/src/assets/Images/sanwtich.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px 12px 0 0;
+  background-position: center center;
+  display: flex;
 }
 
 .like {
@@ -59,7 +62,7 @@
 }
 
 .card-description h1 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .info {

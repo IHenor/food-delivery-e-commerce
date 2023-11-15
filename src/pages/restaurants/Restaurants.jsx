@@ -12,6 +12,12 @@ import {
   faChevronLeft,
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
+import image9 from "../../assets/Images/sandwich.png";
+import image10 from "../../assets/Images/doner.png";
+import image11 from "../../assets/Images/hummus.png";
+import image12 from "../../assets/Images/korea.png";
+import image13 from "../../assets/Images/pizza.png";
+import image14 from "../../assets/Images/pie.png";
 
 function Restaurants() {
   return (
@@ -59,13 +65,18 @@ function Restaurants() {
         </div>
       </div>
       <div className="restaurants">
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
+        <FoodBlock image={image9} name="City Sandwitches and Coffe" />
+        <FoodBlock image={image10} name="Kochi Korean Food" />
+        <FoodBlock image={image11} name="Easy Hummus Izraeli Food" />
+        <FoodBlock image={image12} name="Camorra Pica and Beer" />
+        <FoodBlock image={image13} name="Samir’s Original Turkish Kebab" />
+        <FoodBlock image={image14} name="Granny’s Traditional Food" />
+        <FoodBlock image={image9} name="City Sandwitches and Coffe" />
+        <FoodBlock image={image10} name="Kochi Korean Food" />
+        <FoodBlock image={image11} name="Easy Hummus Izraeli Food" />
+        <FoodBlock image={image12} name="Camorra Pica and Beer" />
+        <FoodBlock image={image13} name="Samir’s Original Turkish Kebab" />
+        <FoodBlock image={image14} name="Granny’s Traditional Food" />
       </div>
     </div>
   );

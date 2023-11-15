@@ -1,6 +1,5 @@
 import React from "react";
 import "./Shop.css";
-import Lunch from "../../assets/Images/Lunch.png";
 import FoodBlock from "components/food-block/FoodBlock";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,6 +13,16 @@ import {
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import FoodType from "components/food-type/FoodType";
+import image1 from "../../assets/Images/Vegetables.png";
+import image2 from "../../assets/Images/Beer.jpg";
+import image3 from "../../assets/Images/Chips.jpg";
+import image4 from "../../assets/Images/Fish.jpg";
+import image5 from "../../assets/Images/Chicken.jpg";
+import image6 from "../../assets/Images/Beef.jpg";
+import image15 from "../../assets/Images/interex.png";
+import image16 from "../../assets/Images/viva-fresh-store.png";
+import image17 from "../../assets/Images/Target-logo-1.png";
+import image18 from "../../assets/Images/Express_Clothing_Logo.SVG.png";
 
 function Shop() {
   return (
@@ -29,12 +38,12 @@ function Shop() {
         </div>
       </div>
       <div className="shop-blocks">
-        <FoodType image={Lunch} name="Vegetables" />
-        <FoodType image={Lunch} name="Beer" />
-        <FoodType image={Lunch} name="Chips" />
-        <FoodType image={Lunch} name="Fish" />
-        <FoodType image={Lunch} name="Chicken" />
-        <FoodType image={Lunch} name="Beef" />
+        <FoodType image={image1} name="Vegetables" />
+        <FoodType image={image2} name="Beer" />
+        <FoodType image={image3} name="Chips" />
+        <FoodType image={image4} name="Fish" />
+        <FoodType image={image5} name="Chicken" />
+        <FoodType image={image6} name="Beef" />
       </div>
       <div className="shop-filters">
         <div className="filter-types">
@@ -69,13 +78,18 @@ function Shop() {
         </div>
       </div>
       <div className="shops">
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
-        <FoodBlock />
+        <FoodBlock image={image15} name="INTEREX" />
+        <FoodBlock image={image16} name="Viva Fresh Store" />
+        <FoodBlock image={image17} name="Target" />
+        <FoodBlock image={image18} name="EXpress" />
+        <FoodBlock image={image15} name="INTEREX" />
+        <FoodBlock image={image16} name="Viva Fresh Store" />
+        <FoodBlock image={image17} name="Target" />
+        <FoodBlock image={image18} name="EXpress" />
+        <FoodBlock image={image15} name="INTEREX" />
+        <FoodBlock image={image16} name="Viva Fresh Store" />
+        <FoodBlock image={image17} name="Target" />
+        <FoodBlock image={image18} name="EXpress" />
       </div>
     </div>
   );

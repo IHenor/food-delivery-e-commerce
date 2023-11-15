@@ -4,11 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-function FoodBlock() {
+function FoodBlock({ image, name }) {
+  const style = {
+    backgroundImage: `url(${image})`,
+    backgroundColor: "white ",
+  };
   return (
     <>
       <div className="food-card">
-        <div className="card-image flex">
+        <div className="card-image flex" style={style}>
           <div className="rating">
             <FontAwesomeIcon icon={faStar} /> 5.0
           </div>
@@ -17,7 +21,7 @@ function FoodBlock() {
           </button>
         </div>
         <div className="card-description flex">
-          <h1>City Sandwitches and Coffe</h1>
+          <h1>{name}</h1>
           <div className="info flex">
             <div className="min-info">
               <h2>20-30min</h2>

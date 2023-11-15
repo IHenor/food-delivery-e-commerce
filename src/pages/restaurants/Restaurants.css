@@ -41,6 +41,7 @@
   align-items: flex-start;
   justify-content: center;
   width: 80%;
+  padding-left: 12rem;
 }
 
 .title-text a {
