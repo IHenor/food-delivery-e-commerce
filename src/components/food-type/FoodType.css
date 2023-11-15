@@ -1,0 +1,21 @@
+.type-image {
+  display: flex;
+  width: auto;
+  height: 15.125rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 35px 35px;
+  color: white;
+}
+
+.type-image h1 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.title {
+  font-size: 2rem;
+}

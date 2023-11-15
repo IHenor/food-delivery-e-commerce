@@ -1,0 +1,35 @@
+.offer-card {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #eff5ff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.offer-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 22.5rem;
+  flex-direction: column;
+  color: black;
+  margin: 0;
+}
+
+.offer-content button {
+  width: 10rem;
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: var(--black);
+  border-radius: 12px;
+  font-size: 1.4rem;
+  border: 0;
+}
+
+.offer-content h1 {
+  margin: 0 0 2rem 0;
+}
+.offer-content p {
+  margin: 2rem 0 0 0;
+  font-weight: 100;
+}

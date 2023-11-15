@@ -1,18 +1,26 @@
-import './App.css';
-import Button from 'components/ui/Button';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
+import NavBar from "components/nav-bar/NavBar";
+import Home from "pages/home/Home";
+import Footer from "components/footer/Footer";
+import Restaurants from "pages/restaurants/Restaurants";
+import Shop from "pages/shop/Shop";
+import User from "pages/user-page/User";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
-       
-      <Button className={"open"} name={"Open"}/>
-      <Button className={"delete"} name={"Delete"}/>
-      <Button className={"shop"} name={"Shop now"}/>
-      <Button className={"pay"} name={"Pay now"}/>
-      
-
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Restorants" element={<Restaurants />} />
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/User" element={<User />} />
+        </Routes>
       </header>
+      <Footer />
     </div>
   );
 }

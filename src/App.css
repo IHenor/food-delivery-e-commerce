@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Manrope:wght@300;400;500&family=Oswald:wght@500&display=swap");
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --black: #0c0c23;
+  --gray-68: #abaaad;
+  --gray-93: #eae8ed;
+  --gray-96: #f2f0f5;
+  --gray-98: #fbfbfb;
+  --light-blue: #eff5ff;
+  --light-orange: #fff4ef;
+  --light-pink: #ffeff3;
+  --pink: #eca3b6;
 }
 
 .App-logo {
@@ -14,18 +30,29 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: White;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.flex {
+  display: flex;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +62,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: "Gabarito", "Manrope", "Oswald", sans-serif;
 }
